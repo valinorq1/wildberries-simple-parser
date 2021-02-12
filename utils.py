@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import csv
 
 
-
 def clear_string(string):  # В основном только для того, что удать знак "рубль" из строки "цена"
     return re.sub('\D', '', string)
 
@@ -16,6 +15,7 @@ def get_normalized_page_url(url_to_normalize):
         return '-'.join(url_to_normalize.split('?')[:-1])
     else:
         return url_to_normalize
+
 
 def write_csv(data):
     with open('result.csv', 'a') as f:
@@ -90,13 +90,13 @@ def parse_selected_product_data(product_url):
     brand = ''
     current_price = ''
     default_price = ''
+    data = {}
 
     for child in product_detailt_page:
         full_name = child.find(class_='brand-and-name').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
         brand = child.find(class_='brand').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
         current_price = child.find(class_='final-cost').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
         default_price = child.find(class_='c-text-base').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-
 
         data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price,
                 'url': base_url + product_url}
