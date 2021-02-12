@@ -21,7 +21,6 @@ def get_normalized_page_url(url_to_normalize):
 def write_csv(data):
     with open('result.csv', 'a') as f:
         fields = ['full_name', 'brand', 'current_price', 'default_price', 'url']
-
         writer = csv.DictWriter(f, fieldnames=fields)
         for product in data:
             writer.writerow(product)
@@ -74,13 +73,16 @@ def parse_all_product_link(url, page_count):
         return products_link
 
 
+products_data = []
+
+
 def parse_selected_product_data(product_url):
-    base_url = 'https://www.wildberries.ru'
     """
     Функция скрапинга информации о товаре
     Переходим по ссылке - парсим данные - записываем в cловарь
 
     """
+    base_url = 'https://www.wildberries.ru'
     product_detail = requests.get(base_url + product_url)
     product_detail_page_souce = product_detail.text
     soup = BeautifulSoup(product_detail_page_souce, 'lxml')
@@ -101,7 +103,9 @@ def parse_selected_product_data(product_url):
 
         data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price,
                 'url': base_url + product_url}
-    return data
+        products_data.append(data)
+    print(data)
+
 
 
 def parse_inner_products_data(url_list):
@@ -115,5 +119,8 @@ def parse_inner_products_data(url_list):
 
     return product_data
 
+
+def make_request(urls):
+    parse_selected_product_data(urls)
 
 
