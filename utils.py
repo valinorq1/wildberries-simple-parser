@@ -1,9 +1,10 @@
 import re
+import csv
 
 
 import requests
 from bs4 import BeautifulSoup
-import csv
+
 
 
 def clear_string(string):  # В основном только для того, что удать знак "рубль" из строки "цена"
