@@ -30,12 +30,13 @@ def get_total_page(url):
     """
         Фукнция в тупую берет максимальное коль-во страниц с выбранным товаром и начинает считать кол-во страниц
     """
-    get_page = requests.get(url+'?page=1')
+    s = requests.Session()
+    get_page = s.get(url+'?page=1')
     page_count = 0
     if 'pagination-next' in get_page.text:
         i = 1
         while i <= 5000:
-            get_next_page = requests.get(url + '?page={}'.format(i))
+            get_next_page = s.get(url + '?page={}'.format(i))
             page_count += 1
             i += 1
 
@@ -49,26 +50,31 @@ def get_total_page(url):
 
 
 def parse_all_product_link(url, page_count):
+    base_url = 'https://www.wildberries.ru'
     products_link = []
     """
         - Функция работает с базовым урлом на страницу с нужными товарами + {page}
         - Коротко говоря, просто считает сколько страниц с выбранным товаром есть
     """
+    s = requests.Session()
+
     if page_count > 1:
         for i in range(1, page_count + 1):
-            html = requests.get(url + f'?page={i}')
+
+            html = s.get(url + f'?page={i}')
             soup = BeautifulSoup(html.text, 'lxml')
             all_product_link = soup.find_all('div', {'class': 'dtList-inner'})
             for k in all_product_link:
-                products_link.append(k.span.span.a.get('href'))
+                products_link.append(base_url + k.span.span.a.get('href'))
 
+        print(products_link)
         return products_link
     else:
         html = requests.get(url)
         soup = BeautifulSoup(html.text, 'lxml')
         all_product_link = soup.find_all('div', {'class': 'dtList-inner'})
         for i in all_product_link:
-            products_link.append(i.span.span.a.get('href'))
+            products_link.append(base_url + i.span.span.a.get('href'))
 
         return products_link
 
@@ -76,16 +82,9 @@ def parse_all_product_link(url, page_count):
 products_data = []
 
 
-def parse_selected_product_data(product_url):
-    """
-    Функция скрапинга информации о товаре
-    Переходим по ссылке - парсим данные - записываем в cловарь
+def parse_selected_product_data(product_html):
 
-    """
-    base_url = 'https://www.wildberries.ru'
-    product_detail = requests.get(base_url + product_url)
-    product_detail_page_souce = product_detail.text
-    soup = BeautifulSoup(product_detail_page_souce, 'lxml')
+    soup = BeautifulSoup(product_html, 'lxml')
     product_detailt_page = soup.find_all('div', {'class': 'product-content-v1'})
 
     #  преинициализация переменных, что бы избежать ошибок
@@ -98,11 +97,16 @@ def parse_selected_product_data(product_url):
     for child in product_detailt_page:
         full_name = child.find(class_='brand-and-name').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
         brand = child.find(class_='brand').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        current_price = child.find(class_='final-cost').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        default_price = child.find(class_='c-text-base').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-
-        data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price,
-                'url': base_url + product_url}
+        try:
+            current_price = child.find(class_='final-cost').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
+        except:
+            current_price = ''
+        try:
+            default_price = child.find(class_='c-text-base').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
+        except:
+            default_price = ''
+        data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price
+                }
         products_data.append(data)
     print(data)
 
