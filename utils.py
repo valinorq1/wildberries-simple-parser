@@ -1,11 +1,11 @@
 import re
 import csv
 
-
 import requests
 from bs4 import BeautifulSoup
 
 
+# TODO: write a method that allows the user to set additional filters
 
 def clear_string(string):  # В основном только для того, что удать знак "рубль" из строки "цена"
     return re.sub('\D', '', string)
@@ -20,7 +20,7 @@ def get_normalized_page_url(url_to_normalize):
 
 def write_csv(data):
     with open('result.csv', 'a') as f:
-        fields = ['full_name', 'brand', 'current_price', 'default_price'] #  , 'url'
+        fields = ['full_name', 'brand', 'current_price', 'default_price']  # , 'url'
         writer = csv.DictWriter(f, fieldnames=fields)
         for product in data:
             writer.writerow(product)
@@ -31,7 +31,7 @@ def get_total_page(url):
         Фукнция в тупую берет максимальное коль-во страниц с выбранным товаром и начинает считать кол-во страниц
     """
     s = requests.Session()
-    get_page = s.get(url+'?page=1')
+    get_page = s.get(url + '?page=1')
     page_count = 0
     if 'pagination-next' in get_page.text:
         i = 1
@@ -60,14 +60,12 @@ def parse_all_product_link(url, page_count):
 
     if page_count > 1:
         for i in range(1, page_count + 1):
-
             html = s.get(url + f'?page={i}')
             soup = BeautifulSoup(html.text, 'lxml')
             all_product_link = soup.find_all('div', {'class': 'dtList-inner'})
             for k in all_product_link:
                 products_link.append(base_url + k.span.span.a.get('href'))
 
-        print(products_link)
         return products_link
     else:
         html = requests.get(url)
@@ -93,23 +91,26 @@ async def parse_selected_product_data(product_url):
 
     for child in product_detailt_page:
         try:
-            full_name = child.find(class_='brand-and-name').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        except:
+            full_name = child.find(class_='brand-and-name').get_text().strip().encode('ascii', 'ignore').decode(
+                encoding="utf-8")
+        except AttributeError:
             full_name = ''
         try:
             brand = child.find(class_='brand').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        except:
+        except AttributeError:
             brand = ''
         try:
-            current_price = child.find(class_='final-cost').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        except:
+            current_price = child.find(class_='final-cost').get_text().strip().encode('ascii', 'ignore').decode(
+                encoding="utf-8")
+        except AttributeError:
             current_price = ''
         try:
-            default_price = child.find(class_='c-text-base').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        except:
+            default_price = child.find(class_='c-text-base').get_text().strip().encode('ascii', 'ignore').decode(
+                encoding="utf-8")
+        except AttributeError:
             default_price = ''
         data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price
-                } #'url': base_url + product_url
+                }  # 'url': base_url + product_url
         products_data.append(data)
 
         print(data)
