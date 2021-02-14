@@ -2,10 +2,6 @@ import re
 import csv
 
 
-import aiohttp
-import asyncio
-
-
 import requests
 from bs4 import BeautifulSoup
 
@@ -117,22 +113,3 @@ async def parse_selected_product_data(product_url):
         products_data.append(data)
 
         print(data)
-
-
-
-def parse_inner_products_data(url_list):
-    """
-        Получаем лист с ссылками на детальную инфу о товаре и отсюда вызваем функции скрапинга для каждого товара
-    """
-    product_data = []
-    for i in url_list:
-        data = parse_selected_product_data(i)
-        product_data.append(data)
-
-    return product_data
-
-
-def make_request(urls):
-    parse_selected_product_data(urls)
-
-
