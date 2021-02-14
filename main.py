@@ -14,10 +14,10 @@ async def fetch_content(url, session):
         await parse_selected_product_data(product_html)
 
 
-async def main(url_to_parse):
-    url = get_normalized_page_url(url_to_parse)  # приводим ссылку к нормальному виду
+async def main(main_url):
+    url = get_normalized_page_url(main_url)  # приводим ссылку к нормальному виду
     total_page = get_total_page(url)  # считаем кол-во страниц
-    all_product_link = parse_all_product_link(url, total_page) #  спарсили все ссылки на товары
+    all_product_link = parse_all_product_link(url, total_page)  # спарсили все ссылки на товары
     tasks = []
     async with aiohttp.ClientSession() as session:
         for url in all_product_link:
@@ -27,7 +27,7 @@ async def main(url_to_parse):
 
 if __name__ == '__main__':
     start = datetime.datetime.now()
-    url_to_parse = "https://www.wildberries.ru/brands/adidas/krossovki"
+    url_to_parse = "https://www.wildberries.ru/catalog/dlya-remonta/elektroinstrumenty/payalno-termicheskie-instrumenty"
     asyncio.run(main(url_to_parse))
     end = datetime.datetime.now()
     print('time taken:  ', end-start)

@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 # TODO: write a method that allows the user to set additional filters
 
 def clear_string(string):  # В основном только для того, что удать знак "рубль" из строки "цена"
-    return re.sub('\D', '', string)
+    return re.sub(r'\D', '', string)
 
 
 def get_normalized_page_url(url_to_normalize):
