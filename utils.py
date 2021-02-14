@@ -109,8 +109,21 @@ async def parse_selected_product_data(product_url):
                 encoding="utf-8")
         except AttributeError:
             default_price = ''
+
+        try:
+            articul = child.find(class_='article').get_text().strip().encode('ascii', 'ignore').decode(
+                encoding="utf-8")
+        except AttributeError:
+            articul = ''
+
+        try:
+            rating = child.find(class_='stars-line-lg').get_text().strip().encode('ascii', 'ignore').decode(
+                encoding="utf-8")
+        except AttributeError:
+            rating = ''
+
         data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price
                 }  # 'url': base_url + product_url
         products_data.append(data)
 
-        print(data)
+        """print(data)"""

@@ -2782,3 +2782,378 @@ EINHELL /   ,EINHELL,4379,
 " /    525-1, 100 ",,504,700
 " /    61  2.0   525-2-5 2%,   63, 250 ",,792,1100
 " /    61  0.8   525-2-1 2%,   63, 500 ",,1296,1800
+ELEMENT! /      ELEMENT 947-II,ELEMENT!,834,897
+Bort /    Bort BHG-2000F-L,Bort,2314,2967
+Rexant /      ,Rexant,422,1212
+"Rexant /       (  1300 ), 11  + ",Rexant,2291,4972
+Rexant /   -     (100-450 ),Rexant,1273,3083
+ELEMENT! /    ELEMENT 852D++ c   ,ELEMENT!,5640,6796
+Rexant /    220/1600     ,Rexant,2951,7750
+Bort /    Bort BHG-2000F,Bort,1713,2142
+Rexant /           ,Rexant,234,460
+Rexant /         (20x14 ),Rexant,503,1331
+"Rexant /   "" ""   ( x3) +    ",Rexant,627,848
+Rexant /        +  +  (160-500 ),Rexant,1435,3759
+ELEMENT! /      ELEMENT 936,ELEMENT!,1456,1714
+ /    -2000,,1564,1980
+ELEMENT! /    ELEMENT 898BD    ,ELEMENT!,5049,6732
+KOLNER /    KHG 1800,KOLNER,1065,1544
+" /     (12 ),  80W, , , , , ",,1774,4437
+DEKO /    HG2200W,DEKO,941,1384
+Rexant /        ,Rexant,478,1929
+Proconnect /              (25 ),Proconnect,257,348
+Smart Life /       S120    / ,Smart Life,626,1393
+"Rexant /          + , 40 ",Rexant,185,907
+ /    . . . . - .,,199,530
+ /    -2000,,2353,2870
+FIT /   ,FIT,1555,1920
+"Rexant /      1  5  (,  ,  , , )",Rexant,263,434
+" /      2000-2 (2000, 350/600*C, 300/500/, +4 )",,1605,3498
+"Rexant /   "" ""  2  ( x2.5 + x7.5) +   ",Rexant,1189,2399
+ /    -2000,,3009,3670
+Rexant /       (17 ) +     ,Rexant,1544,3494
+"NEWTON /     NEWTON NTF2000A, 2000, 300C / 600C",NEWTON,1349,3550
+"PATRIOT /    PATRIOT HG 201 THE ONE,  2000,  ,  ",PATRIOT,1269,1587
+Rexant /     900         150 ,Rexant,13107,29225
+Zornwee /        /   / ,Zornwee,1027,2850
+Rexant /   ,Rexant,438,1212
+"RVN /     (), /",RVN,158,255
+Bort /    BHG-1600-P,Bort,1005,1360
+Rexant /       ,Rexant,282,1643
+"DEKO /        HT18, 62, 2,5 ",DEKO,265,391
+"RVN /     RVN, ,  , ",RVN,214,252
+"Rexant /         ,   520 ",Rexant,225,497
+KOLNER /    KHG 2200,KOLNER,1432,2170
+ELEMENT! /    ELEMENT 858,ELEMENT!,2747,3232
+JASTON /    ( + ),JASTON,800,
+"Rexant /   "" ""   ( x2.5) +    ",Rexant,455,959
+"RVN /     RVN, ,  , ",RVN,284,355
+"Rexant /         ,   400 ",Rexant,192,453
+"Rexant /       +  +  + , 30/70 ",Rexant,913,2717
+ELEMENT! /    ELEMENT 8858-I,ELEMENT!,4037,4486
+"Rexant /      2  ( 60%,  40%),  100 ",Rexant,414,958
+"Rexant /         , 50 /220 ",Rexant,2136,5713
+ /    -2000 2,,4090,
+Rexant /   ,Rexant,386,1149
+p /     -2000,p,3890,5985
+ /     00361,,3112,
+Rexant /          ,Rexant,370,1046
+"Rexant /   -      , 700 /220 ",Rexant,3654,9951
+Bort /    BHG-2000L-K,Bort,3256,3924
+Proconnect /   ( )    25 /220 ,Proconnect,490,814
+"Rexant /     ()      , +",Rexant,183,383
+Tesla /    tesla th2200lcd.,Tesla,4993,9145
+ /     00308,,2490,
+"Rexant /      1    ( 61%,  39%)   ",Rexant,152,318
+"Rexant /      1.5    ( 61%,  39%)   ",Rexant,291,1231
+Rexant /         ,Rexant,509,1363
+"HAMMER /   . Hammer Flex HG2020A  2200 50/350-100/600 300/500/., , .",HAMMER,2893,4590
+Rexant /      +    ,Rexant,497,1315
+ELITECH /     2000,ELITECH,3093,4180
+"Rexant /         ,   540 ",Rexant,236,743
+"Rexant /    """"       (200 ),  460 ",Rexant,1118,3949
+Bort /    BHG-2000N-LK,Bort,2337,3489
+ELEMENT! /      ELEMENT 947-V,ELEMENT!,1107,1384
+"DEKO /       SI02, 40 /220 ",DEKO,221,325
+"Rexant /        "" "",  30 ",Rexant,163,340
+"Rexant /      1  ( 60%,  40%),  100 ",Rexant,412,968
+Rexant /      ,Rexant,627,2408
+"Rexant /   ,   USB",Rexant,527,1514
+"HAMMER /   . Hammer Flex HG2010 2200 350/600 200/500/., , .",HAMMER,1890,2999
+Rexant /       ,Rexant,519,1514
+PATRIOT /    PATRIOT HG 210 The One,PATRIOT,1769,2212
+"ELITECH /     1600, 1600 , 400/590 ",ELITECH,1605,2230
+"Rexant /      2  3 ,   ( ,  ,  -120)",Rexant,213,310
+"Rexant /       , 6 ",Rexant,387,816
+ /    -1600,,1352,1630
+"EINHELL /    TC-HA 2000/1, 2000 .",EINHELL,1694,2290
+"Pro Legend /    :  lv-1000, -   20.,  -70",Pro Legend,250,313
+Baku /     Baku BK-761D,Baku,4590,6987
+"Rexant /   "" ""   ( 25%,  25%,  50%)   ",Rexant,263,510
+"Rexant /    ""2  1""    , 350 /60 ",Rexant,5794,12382
+Rexant /         (250-500C) 60 ,Rexant,1199,2494
+"Pro Legend /    :  20.,  20.,  -61,   20 ",Pro Legend,240,300
+"Rexant /          (100 ),   ",Rexant,236,555
+Lukey /     Lukey 702,Lukey,5790,9191
+"DEKO /       SI01, 30 /220 ",DEKO,204,300
+Smart Life /       S160    / ,Smart Life,1431,3180
+"metabo /    H 16-500, 1600 , 2 ,  ",metabo,4692,4939
+"Rexant /      1    ( 61%,  39%)   ",Rexant,292,903
+ELEMENT! /    Element 852D+    ,ELEMENT!,5374,5779
+WORTEX /   WORTEX HG 6020  . +  ,WORTEX,2766,2852
+"Rexant /          + , 80 ",Rexant,238,1058
+Black+Decker /     KX1650-XK,Black+Decker,1592,1990
+"Rexant /         ,  100 ",Rexant,146,282
+"Rexant /      0.8   ( 61%,  39%)   ",Rexant,157,318
+"Rexant /      2    ( 61%,  39%)   ",Rexant,293,994
+"Rexant /      1  ( 60%,  40%), - 20 ",Rexant,147,283
+Rexant /      -    (48 /160-520 ),Rexant,2490,7702
+"Rexant /      3  ( 60%,  40%),  500 ",Rexant,1697,3679
+"STATUS, /    HAG3LCD","STATUS,",3091,4416
+"Rexant /      ,    (60 /200-480 )",Rexant,3298,8206
+Rexant /    -    (12 /100-450 ),Rexant,1394,2894
+"Rexant /       (100 ),   550 ",Rexant,874,1764
+"Rexant /     -61  1  ( 61%,  39%),  10 ",Rexant,116,157
+"Denzel /    HG-2000E, 2000 , 2 , LCD ",Denzel,5454,
+ /      22 ,,222,343
+STYLE HOME /   USB,STYLE HOME,1021,2043
+Keller /   FLUX TR-RMA -      SMD  BGA  20,Keller,264,407
+"Rexant /  - 12 /8    ,       ",Rexant,210,639
+"Rexant /   -   BGA-  SMD-, - 12 ",Rexant,301,703
+"Rexant /      3  3 ,   (,  ,  )",Rexant,204,320
+Rexant /    300         100 ,Rexant,2103,4557
+Rexant /      ,Rexant,318,1058
+"Rexant /    -  , - 12 ",Rexant,272,616
+Rexant /       (d-3  x 1.5 )      ,Rexant,166,320
+Rexant /       ,Rexant,388,1176
+"Rexant /      1  ( 60%,  40%),  500 ",Rexant,1782,3862
+Rexant /          +    ,Rexant,234,572
+"Rexant /      0.8    ( 61%,  39%)   ",Rexant,319,903
+Rexant /       (d-3  x 1.5 )    +  ,Rexant,147,331
+"Rexant /  -     """",  30 ",Rexant,208,373
+"Rexant /    ,     (48 /160-500 )",Rexant,1411,4343
+" /    -2000/2 (80C-600C),  5 ",,2662,3060
+"Rexant /      0.5  ( 60%,  40%),  100 ",Rexant,455,1121
+Proconnect /    (2 )    30-130 ,Proconnect,322,814
+ /       20 ,,143,220
+"Rexant /       (80 ),   420 ",Rexant,715,1570
+ /       22 ,,185,285
+"Rexant /     -40  1  ( 40%,  60%),  10 ",Rexant,132,162
+YA XUN /      YX510 30W,YA XUN,223,345
+Bort /    BHG-2000X,Bort,1342,1617
+Rexant /         220 /60 ,Rexant,694,2503
+"Rexant /          (40 ),   ",Rexant,194,646
+" /     30 ,  :  7 , , 55425",,834,1056
+"Airline /    () , 2,0L, (AGT-07)",Airline,1284,2568
+"Rexant /      2    ( 60%,  40%), 250 ",Rexant,874,1764
+Proconnect /    ( )    30-70 ,Proconnect,288,877
+Nepsta /       TE504    / ,Nepsta,625,1580
+"FineCase /         ,   520 ",FineCase,210,1400
+Rexant /       (d-2.5  x 1.5 )    +    2 ,Rexant,262,663
+"YA XUN /     Ya Xun  0,5  50 ",YA XUN,198,319
+" /  , 200 , 220 , , 55301-200 ",,1662,1889
+RedVerg /    RedVerg Basic HG2000,RedVerg,1259,2172
+"Rexant /      -,   (48 /160-450 )",Rexant,5651,17390
+ /            ,,556,1200
+Rexant /      c    ,Rexant,497,1315
+" /    38 , 20 ",,163,252
+" /     , 20",,160,247
+"Rexant /          + , 65 ",Rexant,194,998
+ /   -61 -      3  1  26 ,,146,225
+"Proconnect /        , 40 ",Proconnect,239,942
+"JIAERMEI /     80W,   140 ,   27 .",JIAERMEI,380,1000
+ /    -1800 + ,,3500,
+"Rexant /      -120  ,  30 ",Rexant,116,157
+"Wester /   WESTER 908-003  60      , . ",Wester,299,475
+" /     20 -    , , , , ",,199,307
+" /     (8 ),  60W, , , , ",,936,2389
+INGCO /    100  SI00108 INDUSTRIAL,INGCO,894,1104
+" /    -     , smd  bga  50",,259,399
+"Rexant /      3    ( 61%,  39%)   ",Rexant,291,772
+"Rexant /     ()      , ",Rexant,235,643
+INGCO /    40  SI0248 INDUSTRIAL,INGCO,581,680
+"Rexant /     ( )   TR-RMA KELLER  ,  20 ",Rexant,133,209
+ /          ,,190,380
+"Rexant /     -90  1  ( 90%,  10%),  10 ",Rexant,163,200
+Rexant /      MINI   ,Rexant,167,349
+"Rexant /   -30  8  ( 30%,  70%),  40 ",Rexant,391,1027
+"Rexant /          (25 ),   ",Rexant,174,497
+"Rexant /     -60 ( 60 %   40 %),  2 ",Rexant,173,310
+"Rexant /    - "" ""  , - 12 ",Rexant,253,463
+ /      20,,125,
+Smart Life /       S140    / ,Smart Life,792,1760
+Nepsta /       S110    / ,Nepsta,536,1376
+Rexant /  -        ,Rexant,925,6100
+"Pro Legend /    : -   6.,  -70",Pro Legend,250,363
+"Rexant /     -40  1  ( 40%,  60%),  10 ",Rexant,132,162
+Ukid HOME /   basic.,Ukid HOME,281,500
+"Rexant /   "" "" ( 12.5%,  25%,  50%,  12.5 %)   ",Rexant,191,371
+"Rexant /     7.8   ,  (  5 )",Rexant,589,626
+"Rexant /     - ( )  ,  35 ",Rexant,591,1530
+Rexant /       (d-1.5  x 1.5 )    +    2 ,Rexant,217,398
+Lukey /      Lukey 702/852AD/902/936AD/936,Lukey,589,909
+" /    , 30-60 , 220 , , 55304-60",,1378,1767
+Baku /  -   Baku BK-150,Baku,147,227
+Rexant /       (d-1.5  x 1.5 )      ,Rexant,163,221
+Lukey /     Lukey 852D+,Lukey,6890,9691
+Baku /      Baku 761D/898D,Baku,419,675
+"DEKO /     SI09, 220/30-80 ",DEKO,311,915
+" /      -61 ,    22",,217,334
+"Rexant /   , 200",Rexant,733,2178
+Rexant /       ,Rexant,438,1968
+Rexant /       (d-3.0  x 1.5 )    +    2 ,Rexant,298,604
+"Rexant /       (40 ),   420 ",Rexant,548,1222
+Rexant /    150         50 ,Rexant,1354,2731
+ /      2 - 20 ,,143,221
+Rexant /       (d-2.5  x 1.5 )      ,Rexant,158,291
+"Airline /    () , 1,5L,  (AGT-06)",Airline,1149,2298
+ /   -120 22,,230,354
+Keller /  -   -    TT   20,Keller,271,417
+"JIAERMEI /     100W,   140 ,   27 .",JIAERMEI,437,1150
+YA XUN /      YX520 30W,YA XUN,273,440
+ /    -18002,,993,1290
+SVOYREG /    ,SVOYREG,180,600
+ /    -     60  50 ,,237,365
+"Rexant /   -61  8  ( 61%,  39%),  40 ",Rexant,467,1228
+Rexant /       ,Rexant,356,1058
+"Rexant /     -30  1  ( 30%,  70%),  10 ",Rexant,132,162
+" /     (8 ),  40W, , , , ",,658,1679
+"Rexant /      1   ( 61%,  39%)   ",Rexant,160,308
+Mechanic /     TY-V866  0.3 40,Mechanic,210,334
+PATRIOT /    HG 205,PATRIOT,1869,2337
+"Rexant /          , 40 ",Rexant,387,1025
+YA XUN /      YX520 40W,YA XUN,288,464
+"Rexant /     -90  8  ( 90%,  10%),  40 ",Rexant,566,1488
+Baku /     ()       BK-106,Baku,208,345
+"Rexant /         ,   490 ",Rexant,217,646
+Rexant /  -    220 /48 ,Rexant,1036,3393
+"JIAERMEI /     40W,   140 ,   27 .",JIAERMEI,342,900
+"Rexant /       (65 ),   420 ",Rexant,704,1570
+"YA XUN /     Ya Xun  0,3  40 ",YA XUN,194,300
+"Rexant /      0.8    ( 60%,  40%)   , 250 ",Rexant,957,1931
+Proconnect /   ( )    80 /220 ,Proconnect,277,1470
+"HIPER /  HIPER /    2000, 350-600, 300-500 /, 4 , ",HIPER,2290,2545
+"Rexant /      0.6    ( 60%,  40%)   , 250 ",Rexant,1037,2093
+"TDM ELECTRIC /    61,   ,  21931-76, d1, 2, ",TDM ELECTRIC,266,314
+"HARDEN /    , 2000W // HARDEN",HARDEN,2823,
+YA XUN /      YX520 60W,YA XUN,327,520
+"Rexant /          (65 ),   ",Rexant,217,646
+"STATUS, /    HAG1","STATUS,",1587,2268
+ /      Lux   20 ,,170,263
+" /  , 300 , 220 , , 55303-300",,2096,2438
+RedVerg /    RD-HG200/4,RedVerg,2031,3677
+Rexant /    230/1600  ,Rexant,1945,4791
+"Rexant /       60 ,  0.6  (5 )",Rexant,686,1346
+Garden-Lux /   ,Garden-Lux,2205,6732
+"Rexant /          (25 ),  300 ",Rexant,173,453
+"Rapid /    2200 .  : 60-650 C.  : 250-500 .., 5001343",Rapid,5174,7723
+"Rexant /       -  ""-120"",  30 ",Rexant,169,385
+"Rexant /       ,  2 ",Rexant,215,291
+"Rexant /       ,  100 ",Rexant,173,310
+Proconnect /         85 ,Proconnect,330,1058
+ /          80x52x10 ,,136,210
+Rexant /            ,Rexant,378,1281
+ /    20 ,,98,
+INGCO /    60  SI0268 INDUSTRIAL,INGCO,624,816
+Rexant /       (d-1  x 1.5 )    +  ,Rexant,151,291
+"Rexant /    -   ""TT KELLER"",  20 ",Rexant,190,340
+Rexant /      ()      ,Rexant,197,383
+epicastar /    2000,epicastar,1981,5499
+"Rexant /      1    ( 60%,  40%)   , 250 ",Rexant,954,1921
+" /  , 100, 220 , ,55400-100",,652,816
+Rexant /        40 ,Rexant,370,1575
+"Rexant /      0.8  ( 60%,  40%),  500 ",Rexant,1851,4013
+" /  , 100 , 220 , , 55402-100",,758,960
+"Rexant /        900,  5.0  (1 )",Rexant,190,340
+Rexant /       ,Rexant,318,1058
+"Rexant /        900,    4.0  (1 )",Rexant,190,340
+"Rexant /       ,   6.2  (5 )",Rexant,640,1238
+ /    61 -     1  1  6,,178,198
+Mechanic /  - RMA-223 (10) (),Mechanic,278,442
+ /     20 ,,183,306
+"Rexant /       ,  5 ",Rexant,158,291
+" /    61  1.0   525-2-1 2%,   63, 250 ",,792,1100
+ /     20 ,,198,306
+"Rapid /    1600 .  : 60-550 C.   280 .., 24359800",Rapid,1753,2617
+" /  , 500 , 220 , , 55302-500 ",,2606,3031
+"JIAERMEI /     60W,   140 ,   27 .",JIAERMEI,361,950
+Rexant /    220/1500 STANDART,Rexant,1548,3215
+"Rexant /     ( 8,,,,,  )",Rexant,1403,4184
+"Rexant /     -61 ( 61 %   39 %),  1.5 ",Rexant,166,320
+"Rexant /      1  ( 60%,  40%),  1 ",Rexant,2805,7901
+Rexant /     15 ,Rexant,1404,4132
+" /   -61 -       ,  1.5  1  14",,139,214
+" /    525-3-3, 100 ",,599,1040
+Max-Pro /    MPHG2000,Max-Pro,2014,2370
+ /    . . . .   .  . .,,906,1858
+"Rexant /     -61  2  ( 61%,  39%),  20 ",Rexant,175,291
+"Rexant /       (25 ),   350 ",Rexant,489,933
+ /      20,,154,246
+Proconnect /   ( )    40 /220 ,Proconnect,193,745
+"Sparta /      , 100 , 220  Sparta",Sparta,719,799
+" /      (  , , )   22 ",,152,235
+" /     - , , ,  ",,244,349
+"Rexant /      (USB- 8, , , , , )",Rexant,1469,2882
+"Rexant /     -60 ( 60 %   40 %),  0.8 ",Rexant,151,291
+YA XUN /      YX510 40W,YA XUN,246,397
+" /     (8 ),  60W, , , , ",,687,1719
+"Rexant /  -      , - 12 ",Rexant,552,1181
+Rexant /       (d-2.5  x 1.5 )    +  ,Rexant,183,328
+Rexant /          LED  12 /40 ,Rexant,366,894
+"Rexant /     -90  1  ( 90%,  10%),  10 ",Rexant,147,200
+Rexant /       ,Rexant,579,2011
+" /    525-1, 100 ",,633,1100
+"Rexant /   ,   ",Rexant,2980,
+ /     20,,161,249
+"Rexant /     -40  8  ( 40%,  60%),  40 ",Rexant,434,1162
+Keller /   TR RM -      SMD   20,Keller,200,308
+ /   20,,133,205
+ /   -61 -      0.8  1  5 ,,160,178
+" /   -61   0,8-1 ",,149,230
+"Rexant /   "" ""       ,  20 ",Rexant,190,340
+Rexant /       (d-1  x 1.5 )      ,Rexant,160,244
+Rexant /       (d-1.5  x 1.5 )    +  ,Rexant,273,570
+"Rexant /       100 ,  0.6  (5 )",Rexant,830,1861
+Proconnect /         65 ,Proconnect,283,1144
+Rexant /   300 /230       ,Rexant,649,3216
+"Rexant /       -   , 320 ",Rexant,8832,24872
+Rexant /     150        50 ,Rexant,3096,7111
+"Rexant /       80 ,  0.6  (5 )",Rexant,787,1765
+DREMEL /    F0132200JC,DREMEL,4290,
+Rexant /      500      100 ,Rexant,19785,45432
+Rexant /     100        38 ,Rexant,2858,6563
+ /        -     20 ,,124,
+Rexant /        (48 /150-450 ),Rexant,4473,13832
+"Rexant /      2    ( 60%,  40%), 500 ",Rexant,1784,3704
+IQFUTURE /   ,IQFUTURE,4190,
+ /  ,,451,770
+"Rexant /      "" "", - 12 ",Rexant,352,774
+"EINHELL /    TH-HA 2000/1, 2000,+    ",EINHELL,2054,2890
+"Rapid /    1800, . .:300-550 C. : 250-450..,5001341",Rapid,2762,4123
+" /    61  0.8   525-2-5 2%,   63, 500 ",,1296,1800
+Proconnect /         100 ,Proconnect,347,1335
+"STATUS, /    HAG3","STATUS,",1919,2742
+RedVerg /    RD-HG2000D,RedVerg,3789,5414
+Keller /     15 ,Keller,173,
+" /    61  2.0   525-2-5 2%,   63, 250 ",,792,1100
+"Rexant /      40    4.0-6.0 2 , 10 ",Rexant,551,987
+" /  , 100 , 220 , ,55405-100",,670,838
+Rexant /          230 /80 ,Rexant,227,677
+Rexant /     300        100 ,Rexant,5083,11672
+" /    61  0.8   525-2-5 2%,   63, 250 ",,792,1100
+" /    61  1.0   525-2-5 2%,   63, 500 ",,1296,1800
+ /   ,,4300,
+" /    61 -      ,  1  1  8",,127,196
+EINHELL /   ,EINHELL,4379,
+" /    61  2.0   525-2-5 2%,   63, 500 ",,1296,1800
+"Rexant /   "" ""   ( x3) +    ",Rexant,2340,5159
+  /  , ,1080,2161
+Rexant /     250        80 ,Rexant,3997,8675
+ /    ,,2118,4815
+Rexant /      300      55 ,Rexant,16933,38312
+"Rapid /    2000, . .:60-600 C. : 250-450 ..,5001342",Rapid,3902,5825
+ /     -2000 ,,1929,2796
+ /     -2000 /2 (350C -600C ),,1798,4497
+" /    61  2.0   525-2-5 2%,   63, 250 ",,792,1100
+Rexant /    300         80 ,Rexant,1852,4009
+" /    61  2.0   525-2-5 2%,   63, 500 ",,1296,1800
+"OASIS /    TG-20E, 2000 ,  ",OASIS,3375,5819
+"YA XUN /      0,4  90",YA XUN,423,672
+" /   -61 -       ,  1.5  1  16",,149,230
+ /  ,,483,990
+goot /     goot ST-30 -      ,goot,770,1186
+Proconnect /      ( )    100 /220 ,Proconnect,306,1530
+ /  ,,1310,2029
+ /  ,,132,300
+" /    525-1, 100 ",,504,700
+" /    61  0.8   525-2-1 2%,   63, 250 ",,792,1100
+" /    61  1.0   525-2-1 2%,   63, 500 ",,1296,1800
+ /     -2000 +  ,,3117,3997
+Rexant /    220/1500   STANDART,Rexant,2146,4658
+" /    , , 50-480 C, 60 , 55336",,8451,9943
+Rexant /   ,Rexant,1891,3383
+" /    61  1.0   525-2-5 2%,   63, 250 ",,792,1100
+" /    61  0.8   525-2-1 2%,   63, 500 ",,1296,1800
+"Rexant /   "" ""       ,  20 ",Rexant,190,340
+"Rexant /     , ",Rexant,2152,5652
+" /  , 150 , 220 , ,55405-150",,1144,1301
