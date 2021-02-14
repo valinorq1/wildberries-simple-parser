@@ -2,6 +2,10 @@ import re
 import csv
 
 
+import aiohttp
+import asyncio
+
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -20,7 +24,7 @@ def get_normalized_page_url(url_to_normalize):
 
 def write_csv(data):
     with open('result.csv', 'a') as f:
-        fields = ['full_name', 'brand', 'current_price', 'default_price', 'url']
+        fields = ['full_name', 'brand', 'current_price', 'default_price'] #  , 'url'
         writer = csv.DictWriter(f, fieldnames=fields)
         for product in data:
             writer.writerow(product)
@@ -82,21 +86,24 @@ def parse_all_product_link(url, page_count):
 products_data = []
 
 
-def parse_selected_product_data(product_html):
+async def parse_selected_product_data(product_url):
+    """
+    Функция скрапинга информации о товаре
+    Переходим по ссылке - парсим данные - записываем в cловарь
+    """
 
-    soup = BeautifulSoup(product_html, 'lxml')
+    soup = BeautifulSoup(product_url, 'lxml')
     product_detailt_page = soup.find_all('div', {'class': 'product-content-v1'})
 
-    #  преинициализация переменных, что бы избежать ошибок
-    full_name = ''
-    brand = ''
-    current_price = ''
-    default_price = ''
-    data = {}
-
     for child in product_detailt_page:
-        full_name = child.find(class_='brand-and-name').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
-        brand = child.find(class_='brand').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
+        try:
+            full_name = child.find(class_='brand-and-name').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
+        except:
+            full_name = ''
+        try:
+            brand = child.find(class_='brand').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
+        except:
+            brand = ''
         try:
             current_price = child.find(class_='final-cost').get_text().strip().encode('ascii', 'ignore').decode(encoding="utf-8")
         except:
@@ -106,9 +113,10 @@ def parse_selected_product_data(product_html):
         except:
             default_price = ''
         data = {'full_name': full_name, 'brand': brand, 'current_price': current_price, 'default_price': default_price
-                }
+                } #'url': base_url + product_url
         products_data.append(data)
-    print(data)
+
+        print(data)
 
 
 
