@@ -1,3 +1,5 @@
-# wildberries Scraper with asyncio
+# wildberries Scraper
+
+<b> Этот парсер достает информацию со страниц с товаром </b>
 
 
